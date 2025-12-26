@@ -1,17 +1,16 @@
 # AI-Generated-Face-Detection
 
-🧠 AI vs Real Face Detection (Deepfake Detection)
-📌 Overview
+# 📌 Overview
 
 This project focuses on detecting AI-generated (synthetic) faces vs real human faces using deep learning. With the rise of deepfakes and generative AI, identifying fake facial images is crucial for digital forensics, media authenticity, and AI safety.
 
 A CNN-based transfer learning model is trained on a high-quality, balanced dataset to accurately classify facial images as Real or AI-Generated.
 
-🎯 Problem Statement
+# 🎯 Problem Statement
 
 AI-generated faces are becoming increasingly realistic, making it difficult to distinguish them from real human faces. This project aims to build a robust image classification system that can automatically detect AI-generated facial images.
 
-🗂 Dataset
+# 🗂 Dataset
 
 Dataset Name: GRAVEX-200K / AI Face Detection Dataset
 
@@ -40,7 +39,7 @@ Download it from:
 https://www.kaggle.com/datasets/muhammadbilal/gravax200k
 
 
-🏗 Model Architecture
+# 🏗 Model Architecture
 
 Base Model: EfficientNet (Transfer Learning)
 
@@ -54,7 +53,7 @@ Dropout for regularization
 
 Sigmoid output layer
 
-⚙️ Workflow
+# ⚙️ Workflow
 
 Dataset loading & preprocessing
 
@@ -80,11 +79,11 @@ ROC Curve & AUC Score
 
 These metrics help assess model reliability and classification performance.
 
-🚀 Deployment
+#🚀 Deployment
 
 The trained model is deployed using Streamlit, allowing users to upload an image and instantly get predictions indicating whether the face is Real or AI-Generated.
 
-🛠 Tech Stack
+# 🛠 Tech Stack
 
 Python
 
@@ -104,7 +103,7 @@ Streamlit
 
 Google Colab
 
-📌 Use Cases
+# 📌 Use Cases
 
 Deepfake detection
 
