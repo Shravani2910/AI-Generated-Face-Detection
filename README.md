@@ -69,7 +69,7 @@ Confusion Matrix & ROC Curve analysis
 
 Deployment using Streamlit
 
-📊 Evaluation Metrics
+# 📊 Evaluation Metrics
 
 Accuracy
 
@@ -79,7 +79,7 @@ ROC Curve & AUC Score
 
 These metrics help assess model reliability and classification performance.
 
-#🚀 Deployment
+# 🚀 Deployment
 
 The trained model is deployed using Streamlit, allowing users to upload an image and instantly get predictions indicating whether the face is Real or AI-Generated.
 
